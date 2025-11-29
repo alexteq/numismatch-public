@@ -54,13 +54,13 @@ Numismatch is designed to recognize Roman coins by examining both images and tex
 Run the agent locally with ADK web interface:
 
 ```bash
-adk web --module numismatch.agent --object root_agent
+adk web
 ```
 
 Open http://localhost:8000 in your browser to use ADK Web interface, choose 'numismatch' agent and start sending images or/and textual coin descriptions!
 
 **Sample Test Images**: The `sample_images/` folder contains test images you can use:
-- `sample_images/RomanCoins/` - 5 sets of authentic Roman coin photos for testing identification
+- `sample_images/RomanCoins/` - sets of authentic Roman coin photos for testing identification
 - `sample_images/NonRomanOrNotCoins/` - Non-Roman images for testing triage logic
 
 ### Example Queries
@@ -169,10 +169,9 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 Areas where we'd love help:
 - Additional coin identification tools
-- Improved image preprocessing
-- Market data integration
 - Existing price search tools improvement or new tools development
 - Documentation and examples
+- Validation tools
 
 ## License
 
